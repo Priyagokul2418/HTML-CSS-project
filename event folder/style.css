@@ -1,0 +1,117 @@
+img{
+    width: 320px;
+    height: 240px;
+  }
+  
+  header{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border: 3px solid #2E2E2E;
+    padding: 5px;
+    width: 400px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 15px #434F5B;
+    background-color:white;
+  }
+  header h1{
+    color: #920192;
+    font-size: 45px;
+  }
+  header h1:hover{
+    color:darkgreen;
+    font-size: 50px;
+  }
+  header p{
+    color: #434F5B;
+  }
+  body{
+    background-color: #F2F2F2;
+  }
+  .brighten img {
+    
+   transition: all 1s ease;
+  }
+    
+  .brighten img:hover {
+    -webkit-filter: brightness(100%);
+    -webkit-transform: rotateZ(-20deg);
+    -ms-transform:rotateZ(-10deg);
+    transform:rotateZ(-15deg);
+    transition:1s ease-in-out;
+
+    }
+  #content{
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    border: 3px solid #2E2E2E;
+    padding: 5px;
+    width: 400px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 15px #434F5B;
+    background-color:white;
+  }
+  #content h1{
+    font-family: dancing script;
+    font-size:35px;
+    text-shadow: 0px 0px 15px darkmagenta;
+    color:crimson;
+    font-weight: bold;
+  }
+  #variety{
+    text-align: center;
+    border: 3px solid #2E2E2E;
+    padding: 5px;
+    width: 400px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 15px #434F5B;
+    background-color:white;
+  }
+  #variety h1, h2, h3, h4, h5, h6{
+    color: #212A3F;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+  #content p{
+    color: #2E2E2E;
+    text-align: left;
+    width: 415px;
+    margin: 0px auto;
+  }
+  #content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #content ul{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  #pic1{
+    padding-bottom: 5px;
+  }
+  #pic2{
+    padding-bottom: 5px;
+  }
+  #pic3{
+    padding-bottom: 5px;
+  }
+  #pic1{
+    .container{
+      width: 400px;
+      position: relative;
+      overflow: hidden;
+  }
+  .container img{
+      width: 100%;
+      height: auto;
+  }
+  .container:hover .head-text{
+      top: 0;
+  }
+}
+  
+  
+  
